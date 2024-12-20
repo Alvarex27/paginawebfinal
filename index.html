@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header /Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+            <h2 class="logo-text">🎂🥧🍞Mil Migas!!!</h2>
+            </a> 
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">PASTELERIA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">PANADERIA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">GALERIA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACTOS</a>
+                </li>
+
+            </ul>  
+            
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <br>
+                    <h2 class="title">PANADERIA & PASTELERIA</h2>
+                    <br>
+                    <h3 class="subtitle">Haz que tu dia sea muy agradable con nuestras delicias artezanales!</h3>
+                    <p class="description">En nuestro rincón dulce, nos dedicamos a crear delicias artesanales con ingredientes frescos y de calidad. Cada pan y pastel es horneado con amor y cuidado, pensado para brindarte una experiencia inolvidable. Ven y descubre el sabor de la felicidad en cada bocado.</p>
+                
+                    <div class="buttons">
+                        <a href="#" class="button order-now"> Ordene Ahora</a>
+                        <a href="#" class="button contact-us"> contactenos</a>
+                    </div>
+                </div>
+        
+                <div class="hero-image-wrapper">
+                    <img src="images/fondo3.png" alt="fondo" 
+                    class="hero-image" >
+                </div>
+            </div>
+        </section>
+
+        <!--About section-->   
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/nosotros.jpg" alt="About" 
+                    class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">NOSOTROS</h2>
+                    <p class="text">Repostería y Panaderia Mil Migas, fue fundada el año 2000 en la ciudad de cochabamba en un sector de la zona norte,
+                        constituyéndose desde entonces como un emprendimiento familiar que se inicio con ambiente pequeño de produccion, el cual al 
+                        dia de hoy ya crecio tanto como en su personal de trabajo y la maquinaria de produccion.
+                        Ofrecemos más de 100 variedades de fina repostería nacional e 
+                        internacional, todos nuestros productos son hechos a mano y en el día, no contienen
+                        conservantes químicos ni mejoradores de masa lo que hace que sean frescos y saludables.
+                    </p>
+
+                    <h2 class="section-title">MISION</h2>
+                    <p class="text">Brindar a nuestros clientes productos de panadería y pastelería frescos,
+                         artesanales y de la más alta calidad, hechos con ingredientes naturales y técnicas 
+                         tradicionales.</p>
+
+                    <h2 class="section-title">VISION</h2>
+                    <p class="text">Ser reconocidos como la mejor panadería y pastelería de la región, destacándonos por nuestra innovación,
+                         excelencia en el servicio y respeto por el medio ambiente.</p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu section--> 
+        <section class="menu-section" id="menu">
+           <h2 class="section-title">PASTELERIA</h2>
+           <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/souffle-de-chocolate-prueba--thumb.png" alt="souffle" class="menu-image">
+                        <h3 class="name">Souffle de Chocolate</h3>
+                        <p class="text">Masa: Bizcochuelo de Chocolate 
+                            <br>Relleno: Dulce de leche, crema helada vainilla, almendras acarameladas.
+                            <br>Decorado: Turrón, chocolate y almendras acarameladas.
+                        </p>
+                            
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/verano--thumb.png" alt="verano" class="menu-image">
+                        <h3 class="name">Verano</h3>
+                        <p class="text">Masa: Bizcochuelo de vainilla suave. 
+                            <br>Relleno: Merengue, dulce de leche, crema helada de frutilla, durazno, frutilla y coco. 
+                            <br>Decorado: Turrón, jalea, merengue, frutilla y durazno.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/durazno-thumb.png" alt="durazno" class="menu-image">
+                        <h3 class="name">Durazno</h3>
+                        <p class="text">Masa: Bizcochuelo de vainilla suave.
+
+                            <br>Relleno: Crema pastelera de durazno con trozos de duraznos y dulce de leche.
+                            
+                            <br>Decorado: Crema Chantilly, jalea de durazno con durazno.
+                        </p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/chocolate-con-ciruela--thumb.png" alt="chocolate.ciruelas" class="menu-image">
+                        <h3 class="name">Chocolate con ciruela</h3>
+                        <p class="text">Masa: Bizcochuelo de chocolate suave.
+
+                            <br>Relleno: Merengue, dulce de leche, crema helada de vainilla, almendras y ciruelas.
+                            
+                            <br>Decorado: Turrón, chocolate, almendras y ciruelas pasas.
+                        </p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/turron-mixta--thumb.png" alt="turron.mixta" class="menu-image">
+                        <h3 class="name">Turrón Mixta</h3>
+                        <p class="text">Masa: Bizcochuelo de vainilla y bizcochuelo de chocolate.
+
+                            <br>Relleno: Dulce de leche.
+                            
+                            <br>Decorado: Turrón con chispas de chocolate.
+                        </p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/frutilla--thumb.png" alt="frutilla" class="menu-image">
+                        <h3 class="name">Frutilla</h3>
+                        <p class="text">Masa: Bizcochuelo de vainilla suave.
+
+                            <br>Relleno: Crema pastelera de frutilla con trozos de frutillas y dulce de leche.
+                            
+                            <br>Decorado: Crema Chantilly, jalea de frutilla con frutillas.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/torta-avellanas--thumb.png" alt="Avellana" class="menu-image">
+                        <h3 class="name">Avellana</h3>
+                        <p class="text">Masa: Bizcochuelo de chocolate suave.
+
+                            <br>Relleno: Mousse de avellana, ganache de chocolate.
+                            
+                            <br>Decorado: Ganache de chocolate y chocolate crocante</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/pasion-de-chocolate--thumb.png" alt="Pasión.Chocolate" class="menu-image">
+                        <h3 class="name">Pasión de Chocolate</h3>
+                        <p class="text">Masa: Bizcochuelo de chocolate especial.
+
+                            <br>Relleno: Fudge de chocolate, dulce de leche.
+                            
+                            <br>Decorado: Ganache de chocolate con baño espejo craquelado.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/torta-moca--thumb.png" alt="Mocca" class="menu-image">
+                        <h3 class="name">Mocca</h3>
+                        <p class="text">Masa: Bizcochuelo de vainilla.
+
+                            <br>Relleno: Dulce de leche, crema moca y almendras tostadas.
+                            
+                            <br>Decorado: Moca, almendras tostadas y dulce de leche.</p>
+                    </li>
+            
+                </ul>
+           </div> 
+        </section>
+
+        <!--Testimonials section--> 
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">PANADERIA</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Pan-Sarnita.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Sarnita"</h3>
+                                <i class="feedback"> 3 Udds. x 2,00 bs.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Arani-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Arani"</h3>
+                                <i class="feedback"> 1 Udd. x 2,50 bs.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Frances-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Frances"</h3>
+                                <i class="feedback">1 Udd. x 2,50 bs.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Marraqueta-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Marraqueta"</h3>
+                                <i class="feedback">3 Udds. x 2,00 bs.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Vallegrandino-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "vallegrandino"</h3>
+                                <i class="feedback">1 Udd. x 5,00 bs.</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Toco-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Toco"</h3>
+                                <i class="feedback">1 Udd. x 2,50 bs.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/Dulce-featured.jpg" alt="pan" class="user-image">
+                                <h3 class="name">Pan "Dulce"</h3>
+                                <i class="feedback">3 Udds. x 2,00 bs.</i>
+                            </li>
+
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery section--> 
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">GALERIA</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/galeria1.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria2.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria3.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria4.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria5.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria6.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria7.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria8.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria9.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria10.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria11.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria12.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria13.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria14.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria15.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria16.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria17.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria18.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria19.png" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria20.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria21.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria22.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria23.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria24.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria25.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria26.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+
+                    <li class="gallery-item">
+                        <img src="images/galeria27.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">CONTACTENOS</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>Cochabamba-cercado/Zona Oeste - Pacata Alta - Av. circunvalacion</p>
+                        </li>
+                        <br>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@milmigaspwebsite.com.bo</p>
+                        </li>
+                        <br>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(591) 76487964</p>
+                        </li>
+                        <br>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Lunes - Viernes: Abierto - 9:00am a 6:00pm</p>
+                        </li>
+                        <br>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sabado - Domingo: Cerrado</p>
+                        </li>
+                        <br>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.milmigasweb.com.bo</p>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Tu nombre" class="form-input" required>
+                        <input type="email" placeholder="Tu correo" class="form-input" required>
+                        <textarea placeholder="Tu mensaje" class="form-input" required></textarea>
+                        <button class="submit-button">Entregar</button>
+                    </form>
+                </div>
+            
+        </section>
+
+        <!--Footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">©2024 Mil Migas Panaderia & Pasteleria</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Politica de Privacidad</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Politica de Cookies</a>
+                </p>
+            </div>
+        </footer>
+
+    </main>
+    <!--Linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
